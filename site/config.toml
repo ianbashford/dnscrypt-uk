@@ -1,3 +1,24 @@
-baseurl = "/"
-languageCode = "en-us"
-title = "Homepage"
+baseurl         = "http://192.168.3.97:3000/"
+theme           = "sp-minimal"
+languageCode    = "en-us"
+title           = "dnscrypt.uk"
+disqusShortname = ""
+paginate        = 5
+
+[params]
+  title       = "dnscrypt.uk"
+  subtitle    = "secure dns"
+  copyright   = ""
+  authorImage = "dnscrypt.png"
+
+  #"single" or "multi"
+  renderType = "single"
+  #"simple" or "original"
+  themeStyle = "simple"
+
+  googleAnalytics = ""
+
+  name = "EM"
+  description = "secure dns"
+  pageNotFoundTitle = "404 - Page not found"
+
