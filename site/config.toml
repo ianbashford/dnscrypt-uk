@@ -18,7 +18,7 @@ paginate        = 5
 
   googleAnalytics = ""
 
-  name = "EM"
+  name = "dnscrypt.uk"
   description = "secure dns"
   pageNotFoundTitle = "404 - Page not found"
 
