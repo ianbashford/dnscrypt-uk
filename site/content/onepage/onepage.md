@@ -18,4 +18,4 @@ from [dnscrypt.info](https://dnscrypt.info)
 Clients exist for linux, windows, osx, ios and android.  All can be found here
 [dnscrypt.info/implementations](https://dnscrypt.info/implementations)
 
-this is how it is
+tt
