@@ -7,7 +7,7 @@ paginate        = 5
 
 [params]
   title       = "dnscrypt.uk"
-  subtitle    = "secure dns"
+  subtitle    = "a public dnscrypt server"
   copyright   = ""
   authorImage = "dnscrypt.png"
 
@@ -19,6 +19,6 @@ paginate        = 5
   googleAnalytics = ""
 
   name = "dnscrypt.uk"
-  description = "secure dns"
+  description = "hosted in the uk"
   pageNotFoundTitle = "404 - Page not found"
 
