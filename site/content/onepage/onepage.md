@@ -30,22 +30,9 @@ sdns://AQcAAAAAAAAAEzEzOS4xNjIuMjM0LjE0Mzo0NDMgm-yHPEXBHRjGJ4uCufLGYkJAjcmb4tbGZ
 sdns://AQcAAAAAAAAAJFsyYTAxOjdlMDA6OmYwM2M6OTFmZjpmZWY3OjljM2FdOjQ0MyCb7Ic8RcEdGMYni4K58sZiQkCNyZvi1sZmbnuKYPKDUB8yLmRuc2NyeXB0LWNlcnQubG9uLmRuc2NyeXB0LnVr
 ```
 
-servername       dnscrypt.uk
-
-- - -
-
-providername   2.dnscrypt-cert.lon.dnscrypt.uk
-
-- - -
-
-ipv4 address   139.162.234.143
-
-- - -
-
-ipv6 address  2a01:7e00::f03c:91ff:fef7:9c3a
-
-- - -
-
-protocol/port   UDP and TCP, port 443
-
-- - -
+| servername    |                     dnscrypt.uk |
+|---------------|--------------------------------:|
+| providername  | 2.dnscrypt-cert.lon.dnscrypt.uk |
+| ipv4 address  |                 139.162.234.143 |
+| ipv6 address  |  2a01:7e00::f03c:91ff:fef7:9c3a |
+| protocol/port | UDP and TCP, port 443           |
