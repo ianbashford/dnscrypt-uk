@@ -21,18 +21,18 @@ Clients exist for linux, windows, osx, ios and android.  All can be found here
 ## Stamp IPV4
 
 ```
-sdns://AQcAAAAAAAAAEzEzOS4xNjIuMjM0LjE0Mzo0NDMgm-yHPEXBHRjGJ4uCufLGYkJAjcmb4tbGZm57imDyg1AfMi5kbnNjcnlwdC1jZXJ0Lmxvbi5kbnNjcnlwdC51aw
+sdns://AQcAAAAAAAAAEjEzOS41OS4yMDAuMTE2OjQ0MyAmJwT-OXZ9NntZ2eu_HtZeXARhCdiAynbBYcu6bArCdxsyLmRuc2NyeXB0LWNlcnQuZG5zY3J5cHQudWs
 ```
 
 ## Stamp IVP6
 
 ```
-sdns://AQcAAAAAAAAAJFsyYTAxOjdlMDA6OmYwM2M6OTFmZjpmZWY3OjljM2FdOjQ0MyCb7Ic8RcEdGMYni4K58sZiQkCNyZvi1sZmbnuKYPKDUB8yLmRuc2NyeXB0LWNlcnQubG9uLmRuc2NyeXB0LnVr
+sdns://AQcAAAAAAAAAHlsyYTAzOmIwYzA6MTplMDo6MmUzOmUwMDFdOjQ0MyAmJwT-OXZ9NntZ2eu_HtZeXARhCdiAynbBYcu6bArCdxsyLmRuc2NyeXB0LWNlcnQuZG5zY3J5cHQudWs
 ```
 
 | servername    |                     dnscrypt.uk |
 |---------------|--------------------------------:|
-| providername  | 2.dnscrypt-cert.lon.dnscrypt.uk |
-| ipv4 address  |                 139.162.234.143 |
-| ipv6 address  |  2a01:7e00::f03c:91ff:fef7:9c3a |
+| providername  |     2.dnscrypt-cert.dnscrypt.uk |
+| ipv4 address  |                  139.59.200.116 |
+| ipv6 address  |        2a03:b0c0:1:e0::2e3:e001 |
 | protocol/port | UDP and TCP, port 443           |
