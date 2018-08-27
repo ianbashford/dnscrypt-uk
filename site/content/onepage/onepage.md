@@ -38,4 +38,4 @@ sdns://AQcAAAAAAAAAHlsyYTAzOmIwYzA6MTplMDo6MmUzOmUwMDFdOjQ0MyAmJwT-OXZ9NntZ2eu_H
 | protocol/port | UDP and TCP, port 443           |
 
 ## Status
-Status page available here [dnscrypt status](https://status.dnscrypt.info)
+Status page available here [dnscrypt status](https://status.dnscrypt.uk)
