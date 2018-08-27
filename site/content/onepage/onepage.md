@@ -36,3 +36,6 @@ sdns://AQcAAAAAAAAAHlsyYTAzOmIwYzA6MTplMDo6MmUzOmUwMDFdOjQ0MyAmJwT-OXZ9NntZ2eu_H
 | ipv4 address  |                  139.59.200.116 |
 | ipv6 address  |        2a03:b0c0:1:e0::2e3:e001 |
 | protocol/port | UDP and TCP, port 443           |
+
+## Status
+Status page available here [dnscrypt status](https://status.dnscrypt.info)
