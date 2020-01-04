@@ -1,8 +1,8 @@
-baseURL = "/"
+baseURL = "https://xenodochial-sammet-6ee3b1.netlify.com/"
 languageCode = "en-us"
 
 title = "dnscrypt.uk"
-theme = "dnscrypt"
+theme = "kraiklyn"
 
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
