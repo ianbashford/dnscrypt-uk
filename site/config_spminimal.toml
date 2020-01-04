@@ -1,0 +1,24 @@
+baseurl         = "https://xenodochial-sammet-6ee3b1.netlify.com/"
+theme           = "sp-minimal"
+languageCode    = "en-us"
+title           = "dnscrypt.uk"
+disqusShortname = ""
+paginate        = 5
+
+[params]
+  title       = "dnscrypt.uk"
+  subtitle    = "a public dnscrypt server"
+  copyright   = ""
+  authorImage = "dnscrypt.png"
+
+  #"single" or "multi"
+  renderType = "single"
+  #"simple" or "original"
+  themeStyle = "simple"
+
+  googleAnalytics = ""
+
+  name = "dnscrypt.uk"
+  description = "hosted in the uk"
+  pageNotFoundTitle = "404 - Page not found"
+
