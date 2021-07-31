@@ -55,6 +55,7 @@ miNpLXyQNjyeQ8y1kXvltB7lHTIuZG5zY3J5cHQtY2VydC52LmRuc2NyeXB0LnVr
 | providername  |     2.dnscrypt-cert.dnscrypt.uk |
 | dnscrypt ipv4 address  |                  139.59.200.116 |
 | dnscrypt ipv6 address  |        2a03:b0c0:1:e0::2e3:e001 |
+| doh hostname  |                  doh.dnscrypt.uk |
 | doh ipv4 address  |                  165.227.233.200 |
 | doh ipv6 address  |        2a03:b0c0:1:d0::ebe:d001 |
 | protocol/port |           UDP and TCP, port 443 |
@@ -68,6 +69,7 @@ miNpLXyQNjyeQ8y1kXvltB7lHTIuZG5zY3J5cHQtY2VydC52LmRuc2NyeXB0LnVr
 | providername  | 2.dnscrypt-cert.v.dnscrypt.uk |
 | dnscrypt ipv4 address  | 104.238.186.192 |
 | dnscrypt ipv6 address  | 2001:19f0:7402:1574:5400:2ff:fe66:2cff |
+| doh hostname  |              v.dnscrypt.uk  |
 | doh ipv4 address  |              136.244.65.20  |
 | doh ipv6 address  |    2a05:f480:1000:967:5400:03ff:fe7e:55d3|
 | protocol/port |UDP and TCP, port 443 |
