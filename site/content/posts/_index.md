@@ -26,30 +26,16 @@ A really simple solution is to use DNSCrypt-Proxy - [https://github.com/DNSCrypt
 dnscrypt.uk hosts two services - dnscrypt.uk (on a DigitalOcean droplet ) and v.dnscrypt.uk (on a vultr high frequency compute).
 Both services also host function as anonymous relays.
 
-## Stamp IPV4
-
-The specification for DNS Stamps is [here](https://dnscrypt.info/stamps-specifications/)
-
-{{% block info %}}
-sdns://AQcAAAAAAAAAEjEzOS41OS4yMDAuMTE2OjQ0MyBxkKwJmxhDAMvj-aF2TcFOK16cSI5EpMxBJG3Ze0lRvBsyLmRuc2NyeXB0LWNlcnQuZG5zY3J5cHQudWs
-sdns://AQcAAAAAAAAAEzEwNC4yMzguMTg2LjE5Mjo0NDMg7Uk9jOrXkGZPBjxHt5WaI2ktfJA2PJ5DzLWRe-W0HuUdMi5kbnNjcnlwdC1jZXJ0LnYuZG5zY3J5cHQudWs
-{{% /block %}}
-
-## Stamp IVP6
-
-{{% block info %}}
-sdns://AQcAAAAAAAAAHlsyYTAzOmIwYzA6MTplMDo6MmUzOmUwMDFdOjQ0MyBxkKwJmxhDAMvj-aF2TcFOK16cSI5EpMxBJG3Ze0lRvBsyLmRuc2NyeXB0LWNlcnQuZG5zY3J5cHQudWs
-sdns://AQcAAAAAAAAALFsyMDAxOjE5ZjA6NzQwMjoxNTc0OjU0MDA6MmZmOmZlNjY6MmNmZl06NDQzIO1JPYzq15BmTwY8R7eVmiNpLXyQNjyeQ8y1kXvltB7lHTIuZG5zY3J5cHQtY2VydC52LmRuc2NyeXB0LnVr
-{{% /block %}}
-
 ## Server Details
 ### digitalocean host
 
 | servername    |                     dnscrypt.uk |
 |---------------|--------------------------------:|
 | providername  |     2.dnscrypt-cert.dnscrypt.uk |
-| ipv4 address  |                  139.59.200.116 |
-| ipv6 address  |        2a03:b0c0:1:e0::2e3:e001 |
+| dnscrypt ipv4 address  |                  139.59.200.116 |
+| dnscrypt ipv6 address  |        2a03:b0c0:1:e0::2e3:e001 |
+| doh ipv4 address  |                  165.227.233.200 |
+| doh ipv6 address  |        2a03:b0c0:1:d0::ebe:d001 |
 | protocol/port |           UDP and TCP, port 443 |
 | relay        |            anon-dnscrypt.uk-ipv4 |
 |                |          anon-dnscrypt.uk-ipv6 |
@@ -59,14 +45,12 @@ sdns://AQcAAAAAAAAALFsyMDAxOjE5ZjA6NzQwMjoxNTc0OjU0MDA6MmZmOmZlNjY6MmNmZl06NDQzI
 | servername    |v.dnscrypt.uk |
 |---------------|---------------------------------------:|
 | providername  | 2.dnscrypt-cert.v.dnscrypt.uk |
-| ipv4 address  | 104.238.186.192 |
-| ipv6 address  | 2001:19f0:7402:1574:5400:2ff:fe66:2cff |
+| dnscrypt ipv4 address  | 104.238.186.192 |
+| dnscrypt ipv6 address  | 2001:19f0:7402:1574:5400:2ff:fe66:2cff |
+| doh ipv4 address  |              136.244.65.20  |
+| doh ipv6 address  |    2a05:f480:1000:967:5400:03ff:fe7e:55d3|
 | protocol/port |UDP and TCP, port 443 |
 | relay         |anon-v.dnscrypt.uk-ipv4 |
 |               |anon-v.dnscrypt.uk-ipv6  |
 
-
-## STATUS
-
-Status page available here [dnscrypt status](https://status.dnscrypt.uk)
 
