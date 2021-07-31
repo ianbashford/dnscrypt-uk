@@ -164,6 +164,7 @@ nav {
 .block.info {
   background: #fefaf5;
   border-top-color: #f1b37e;
+  font-size: small;
 }
 
 .block.block.info:before {
