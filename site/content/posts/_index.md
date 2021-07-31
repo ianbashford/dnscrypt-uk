@@ -26,6 +26,27 @@ A really simple solution is to use DNSCrypt-Proxy - [https://github.com/DNSCrypt
 dnscrypt.uk hosts two services - dnscrypt.uk (on a DigitalOcean droplet ) and v.dnscrypt.uk (on a vultr high frequency compute).
 Both services also host function as anonymous relays.
 
+## Stamp IPV4
+
+The specification for DNS Stamps is [here](https://dnscrypt.info/stamps-specifications/)
+
+{{% block info %}}
+sdns://AQcAAAAAAAAAEjEzOS41OS4yMDAuMTE2OjQ0MyBxkKwJmxhDAMvj-aF2TcFOK16cSI5EpMxBJG3Ze0lRvBsyLmRuc2Ny
+eXB0LWNlcnQuZG5zY3J5cHQudWs
+sdns://AQcAAAAAAAAAEzEwNC4yMzguMTg2LjE5Mjo0NDMg7Uk9jOrXkGZPBjxHt5WaI2ktfJA2PJ5DzLWRe-W0HuUdMi5kbnNj
+cnlwdC1jZXJ0LnYuZG5zY3J5cHQudWs
+{{% /block %}}
+
+## Stamp IVP6
+
+{{% block info %}}
+sdns://AQcAAAAAAAAAHlsyYTAzOmIwYzA6MTplMDo6MmUzOmUwMDFdOjQ0MyBxkKwJmxhDAMvj-aF2TcFOK16cSI5EpMxBJG3Z
+e0lRvBsyLmRuc2NyeXB0LWNlcnQuZG5zY3J5cHQudWs
+sdns://AQcAAAAAAAAALFsyMDAxOjE5ZjA6NzQwMjoxNTc0OjU0MDA6MmZmOmZlNjY6MmNmZl06NDQzIO1JPYzq15BmTwY8R7eV
+miNpLXyQNjyeQ8y1kXvltB7lHTIuZG5zY3J5cHQtY2VydC52LmRuc2NyeXB0LnVr
+{{% /block %}}
+
+
 ## Server Details
 ### digitalocean host
 
