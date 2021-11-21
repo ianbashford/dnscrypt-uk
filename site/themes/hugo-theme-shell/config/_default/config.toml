@@ -7,13 +7,13 @@ ignoreErrors = ["error-remote-getjson"]
 
 [Params]
   # Note: This is for the meta description, which is different from the "description" displayed in the terminal.
-  description = "DNSCrypt UK"
+  description = "Jane Doe's Portfolio!"
   [Params.Terminal]
   # Note: color schema
   # Note: You can choose between
   # Note: ["monokai", "powershell", "gruvbox_light", "gruvbox_dark", "solarized_light", "solarized_dark", "ubuntu", "retro"]
   # Note: If you want to use the Goph theme, set it to "goph" (See README.md)
-  schema = "solarized_dark"
+  schema = "monokai"
 
   # Note: in terminal
   # [userName]@[pcName]:~/$ cd [workDir]
@@ -26,10 +26,10 @@ ignoreErrors = ["error-remote-getjson"]
   # ./[folderName]/
   # ...
   # Note: result of the tree command
-  userName = "admin"
-  pcName = "dnscrypt.uk"
-  workDir = "site"
-  profile = "dnscrypt-uk.md | mdless"
+  userName = "jane"
+  pcName = "laptop"
+  workDir = "mydir"
+  profile = "profile.txt"
 
   # Note: speed at which text is displayed on the terminal
   # Note: if set to 0, typing animation will be disabled
@@ -52,25 +52,26 @@ ignoreErrors = ["error-remote-getjson"]
 
   # activityDelay = 5 : deprecated
 
-  description = "/description.md"
-  #"""
-  #Hi I am Jane Doe!
-  #Nice to meet you!
-  # 
-  # """
+  description = """
+  Hi I am Jane Doe!
+  Nice to meet you!
+  
+  """
 
   # Note: If you want to use a Markdown file, you can use the following
   # description = "/description.md"
   # Note: and put the description.md in /content/description.md
 
   [Params.Tree]
-  use = false
-  folderName = "more_info"
+  use = true
+  folderName = "my_activity"
   # Note: ["ACTIVITY", "URL or PATH TO YOUR MARKDOWN FILE"]
   files = [ 
-    ["howToConnect", "/how_to_connect/"],
-    ["Hosting", "/hosting/"],
-    ["Docker", "/some-activity/"],
+    ["C/C++", "https://www.example.com/"],
+    ["Python", "https://www.example.com/"],
+    ["Go", "https://golang.org/"],
+    ["Hugo", "/post/some-activity.md"],
+    ["Docker", "/post/some-activity.md"],
   ]
 
 [module]
